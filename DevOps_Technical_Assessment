@@ -1,12 +1,15 @@
-Setup following web application deployment: NGINX as reverse proxy for
-uWSGI app server, PostgreSQL and Django on Ubuntu 
+Setup following web application deployment: NGINX as reverse proxy for uWSGI app server, PostgreSQL and Django on Ubuntu 
+
+*************************************************************************************************************************
+
 1.	 First start with the updating packages that are already available on server. So that server will be up to date. For this:
 $ sudo apt-get update
 $ sudo apt-get upgrade
 2.	Now, install PostgreSQL and its required package.
 
 $ sudo apt-get install postgresql postgresql-contrib	
-create a database user and database for our Django application. For this first login as a postgres user, as by default only this user has privileges to create database in PostgreSQL.
+create a database user and database for our Django application. For this first login as a postgres user, 
+as by default only this user has privileges to create database in PostgreSQL.
 
  $ sudo su – postgres
 Now, you are logged in as postgres user. create database user and assign necessary privileges to it.
@@ -20,20 +23,23 @@ Shall the new role be allowed to create databases? (y/n) n
 Shall the new role be allowed to create more new roles? (y/n) n
 postgres@ubuntu:~$
 
-In above example, database user name is db_user. You can give the name as per your wish. Create database now. Give a appropraite name to database as well, as per your Django application
+In above example, database user name is db_user. You can give the name as per your wish.
+Create database now. Give a appropraite name to database as well, as per your Django application
 
 postgres@ubuntu:~$ createdb --owner db_user django_db
 
 here db_user is a databse user and django_db is a database name. Now logout from postgres user.
 
 postgres@ubuntu:~$ logout
-3.	 Till now our database setup is done. Now create a virtual environment for our Django application. For this we need to install, virtualenv package.
+3.	 Till now our database setup is done. Now create a virtual environment for our Django application. 
+For this we need to install, virtualenv package.
 
 $ sudo apt-get install python-virtualenv
 
-
 Now create a virtual environment.
-Note: I am going to keep my django application in default folder that is /home/ubuntu/, So I will create my virtual environment here. If you want to keep your application in some other directory like /var/www/ then change your directory accordingly.
+Note: I am going to keep my django application in default folder that is /home/ubuntu/,
+So I will create my virtual environment here. If you want to keep your application in some 
+other directory like /var/www/ then change your directory accordingly.
 
 $ virtualenv -p python3 django_env
 New python executable in django_env/bin/python
@@ -57,10 +63,8 @@ Cleaning up...
 
 (django_env) $ django-admin.py startproject django_project
 
-Here project name is django_project. Now check whether all your project requirement is setup or not by running it on development server. For this first navigate into your project and run the server.
-
-
-
+Here project name is django_project. Now check whether all your project requirement is setup or not by 
+running it on development server. For this first navigate into your project and run the server.
 
 (django_env) $ cd django_project
 (django_env) $ python manage.py runserver 0.0.0.0:8000
@@ -72,7 +76,8 @@ Development server is running at 0.0.0.0:8000/
 Quit the server with CONTROL-C.
 
 Our project is running on Server's IP with port 8000. Now quit the server by pressing CONTROL-C.
-5.	Now, we need to configure PostgreSQL so that it can communicate with our Django application. For this, install psycopg2 database adapter. But this adapter has some package dependencies, so first install them.
+5.	Now, we need to configure PostgreSQL so that it can communicate with our Django application.
+For this, install psycopg2 database adapter. But this adapter has some package dependencies, so first install them.
 
 (django_env) $ sudo apt-get install libpq-dev python3-dev
 
@@ -96,7 +101,8 @@ Also add, your server's IP or domain name in settings.py as follow:
 
 ALLOWED_HOSTS = ['www.mysite.com'] # your server's IP or domain name
 
-Without above setting, Django will not be accessible from your domain name or IP address. This is the security feature of Django.
+Without above setting, Django will not be accessible from your domain name or IP address. 
+This is the security feature of Django.
 
 Now, migrate the database
 
@@ -131,7 +137,8 @@ workers = 1
 Restart uWSGI with:
 
 service uwsgi restart
-10.	Configure NGINX to serve your application Create a file named django in the /etc/nginx/sites-enabled/ directory. The content of the file should be something like this:
+10.	Configure NGINX to serve your application Create a file named django in the /etc/nginx/sites-enabled/ directory. 
+The content of the file should be something like this:
 
 server {
     listen 80;
@@ -156,4 +163,5 @@ server {
 Restart NGINX with:
 
 service nginx restart
+
 Done!
