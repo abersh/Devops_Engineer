@@ -126,7 +126,8 @@ Python manage.py collectstatic
 8.	Install required packages using apt
 
 sudo apt install nginx uwsgi uwsgi-plugin-python3
-9.	Configure uWSGI to host your Django project Create a file named django.ini in the /etc/uwsgi/apps-enabled/ directory. The content of the file should be something like this:
+9.	Configure uWSGI to host your Django project Create a file named django.ini in the /etc/uwsgi/apps-enabled/ directory.
+The content of the file should be something like this:
 
 [uwsgi]
 chdir = /home/ubuntu/django_project # customize with your django installation directory
