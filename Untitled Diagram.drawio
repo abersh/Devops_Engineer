@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-30T20:46:51.113Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="y0lSFLEfJh7CFiToEOTR" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-30T20:47:57.229Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="YrTtL5UxXPkc-jnW7g_t" version="17.5.0" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1364" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="1">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="2" value="Board&#xa;(GII, BCA, MiNT, MUID)" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="610" y="160" width="349" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Project manager " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="5" value="Project Manager " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="710" y="500" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7" value="Cooperation" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
@@ -55,7 +55,7 @@
         <mxCell id="22" value="Office of Training Services" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="842" y="975.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="23" value="Regulatory &#xa;and Enforcement Division" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="23" value="Assistant &#xa;Project Manager " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1080" y="500" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="24" value="Office of Regulatory Policy" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
@@ -219,7 +219,7 @@
         <mxCell id="-oGhKgB42iq1yZTFwgwP-55" value="GII&#xa;Director General&#xa;Deputy Director" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="340" y="370" width="230" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-oGhKgB42iq1yZTFwgwP-58" value="BCA&#xa;City cantiva&#xa;Deputy Cantiva" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="-oGhKgB42iq1yZTFwgwP-58" value="BCA&#xa;City Cantiva&#xa;Deputy Cantiva" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1010" y="370" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-oGhKgB42iq1yZTFwgwP-59" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.458;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-oGhKgB42iq1yZTFwgwP-58">
