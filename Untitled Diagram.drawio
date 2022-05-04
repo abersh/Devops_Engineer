@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T09:56:58.444Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="dSaFy4yOKhY4vpDUgN11" version="17.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-04T10:03:26.903Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="KCnSfGYBj6-FLvYKxB3v" version="17.5.0" type="github" pages="3">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1364" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="1">
       <root>
@@ -930,22 +930,22 @@
         <mxCell id="QLaL5f-uaUAkXWVSowyg-51" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;OGC&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="590" y="415" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QLaL5f-uaUAkXWVSowyg-52" value="&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0 , 0 , 0)&quot;&gt;Web browser&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QLaL5f-uaUAkXWVSowyg-52" value="&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0 , 51 , 102)&quot;&gt;Web browser&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="440" y="50" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QLaL5f-uaUAkXWVSowyg-53" value="&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0 , 0 , 0)&quot;&gt;Spatial Database&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QLaL5f-uaUAkXWVSowyg-53" value="&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0 , 51 , 102)&quot;&gt;Spatial Database&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="430" y="580" width="200" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="QLaL5f-uaUAkXWVSowyg-57" value="&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(102 , 178 , 255)&quot;&gt;SQL/JDBC&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QLaL5f-uaUAkXWVSowyg-57" value="&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0 , 51 , 102)&quot;&gt;SQL/JDBC&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="570" y="520" width="80" height="33" as="geometry" />
         </mxCell>
         <mxCell id="QLaL5f-uaUAkXWVSowyg-61" value="React, OpenLayers / Leaflet" style="rounded=1;fillColor=#990000;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="450" y="80" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QLaL5f-uaUAkXWVSowyg-63" value="&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0 , 0 , 0)&quot;&gt;REST API&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QLaL5f-uaUAkXWVSowyg-63" value="&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0 , 51 , 102)&quot;&gt;REST API&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="610" y="290" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QLaL5f-uaUAkXWVSowyg-66" value="&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0 , 0 , 0)&quot;&gt;WMS&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="QLaL5f-uaUAkXWVSowyg-66" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;background-color: rgb(0 , 51 , 102)&quot;&gt;WMS&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="560" y="290" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QLaL5f-uaUAkXWVSowyg-67" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=3;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="QLaL5f-uaUAkXWVSowyg-40">
