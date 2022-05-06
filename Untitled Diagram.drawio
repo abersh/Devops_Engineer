@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T08:46:43.776Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fWh-pLgzxXTuQpymXwZw" version="17.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-06T08:51:09.806Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="siFiGWUoIbzBoAqHRsoc" version="17.5.0" type="github" pages="3">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1604" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="1">
       <root>
@@ -741,8 +741,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="x_JUkwbYfYm52PP8X7CX-3" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=16;fillColor=#D5E8D4;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="171" y="126" width="896" height="112" as="geometry" />
+        <mxCell id="x_JUkwbYfYm52PP8X7CX-3" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=16;fillColor=#FFFFFF;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="171" y="126" width="837" height="112" as="geometry" />
         </mxCell>
         <mxCell id="x_JUkwbYfYm52PP8X7CX-1" value="Project Finance &#xa;Manager " style="rounded=1;fillColor=#ffcc99;strokeColor=#36393d;shadow=1;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="252" y="406" width="195" height="56" as="geometry" />
